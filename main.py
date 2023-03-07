@@ -10,8 +10,6 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 import models
 from flops import *
-from adamp import SGDP
-import timm
 
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch Slimming CIFAR training')
